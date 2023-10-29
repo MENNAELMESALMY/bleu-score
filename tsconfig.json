@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",
+      "module": "CommonJS",
+      "outDir": "./js",
+      "rootDir": ".",
+      "jsx": "react",
+      "declaration": true,
+    },
+    "include": ["ts/**/*.ts", "ts/**/*.tsx"],
+    "exclude": ["node_modules"]
+}
+  

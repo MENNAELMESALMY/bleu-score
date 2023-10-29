@@ -1,0 +1,16 @@
+node_modules/
+npm-debug.log
+package-lock.json
+yarn.lock
+.DS_Store
+Thumbs.db
+*.log
+*.log.*
+.idea/
+.vscode/
+*.iml
+.idea_modules/
+.idea_code_waste/
+.idea_misc.xml
+test.js
+test.tsx
