@@ -26,7 +26,7 @@ function bleu(reference, candidate, maxN) {
             }
         }
         let totalPredictedNgrams = (candidateTokens.length - n + 1);
-        precision[n - 1] = totalNgramMatches / totalPredictedNgrams;
+        precision[n - 1] = totalPredictedNgrams > 0 ? totalNgramMatches / totalPredictedNgrams : 0;
     }
     // Calculate brevity penalty
     const referenceLength = referenceTokens.length;

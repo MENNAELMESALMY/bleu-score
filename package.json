@@ -1,6 +1,6 @@
 {
     "name": "bleu-score",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Calculate BLEU score for reference and candidate sentences.",
     "main": "js/bleu.js",
     "typings": "js/bleu.d.ts",
