@@ -31,7 +31,7 @@ export function bleu(reference: string, candidate: string, maxN: number): number
         }
 
         let totalPredictedNgrams = (candidateTokens.length - n + 1);
-        precision[n - 1] = totalNgramMatches / totalPredictedNgrams;
+        precision[n - 1] = totalPredictedNgrams > 0 ? totalNgramMatches / totalPredictedNgrams : 0;
     }
 
     // Calculate brevity penalty

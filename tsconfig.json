@@ -3,7 +3,7 @@
       "target": "ESNext",
       "module": "CommonJS",
       "outDir": "./js",
-      "rootDir": ".",
+      "rootDir": "./ts",
       "jsx": "react",
       "declaration": true,
     },
